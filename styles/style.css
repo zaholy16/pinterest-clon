@@ -21,16 +21,21 @@
 }
 
 .ends {
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
-    gap: 15px;
+}
+
+.izquierda {
+    gap: 14px;
+}
+
+.derecha {
+    gap: 25px;
 }
 
 .central {
-    display: flex;
     /* border: 1px solid coral; */
     border-radius: 50px;
-    justify-content: flex-start;
     align-items: center;
     background-color: #d0d0d0;;
 }
