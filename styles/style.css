@@ -1,55 +1,48 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .display {
     margin: 12px;
     display: grid;
-    /* border: 1px solid cadetblue; */
     grid-template-columns: 15% auto 15%;
-    gap: 10px; 
-    grid-row: 60% auto;
+    grid-template-rows: auto;
+    gap: 15px; 
+}
+
+.header {
+    width: 98%;
+    background-color: #d0d0d0;
+    position: fixed;
+    margin: 1px;
+} 
+
+.header {
+    background-color: white;
 }
 
 .nav{
     display: flex;
     padding: 5px;
-    /* border: 1px solid cornflowerblue; */
-    /* background-color: azure; */
 }
 
 .ends {
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
 }
 
-.izquierda {
-    gap: 14px;
+.right {
+    gap: 10px;
 }
 
-.derecha {
-    gap: 25px;
+.right img {
+    width: 35px;
 }
 
-.central {
-    /* border: 1px solid coral; */
-    border-radius: 50px;
-    align-items: center;
-    background-color: #d0d0d0;;
-}
-
-#search {
-    margin-right: 8px;
-}
-
-#logo {
-    width: 45px;
-}
-
-#home, #today {
-    padding: 15px;
+.right p {
+    padding: 11px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -60,15 +53,142 @@
     border-radius: 30px;
 }
 
-#search {
-    margin-left: 15px;
-    width: 25px;
+.central {
+    border-radius: 50px;
+    align-items: center;
+    background-color: #d0d0d0;;
 }
 
-#notification, #message, #profile{
-    width: 35px;
+.central img {
+    width: 20px;
+}
+
+#search {
+    margin-left: 10px;
+}
+
+.left {
+    align-items: center;
+    justify-content: baseline;
+    gap: 24px;
+}
+
+.left img {
+    width: 30px;
 }
 
 #down {
-    width: 15px;
+    height: 2vh;
+    width: 14px;
+}
+
+.main {
+    position: static;
+}
+
+.container {
+    grid-column: 2 / 3;
+    width: 100%;
+    /* background-color: bisque; */
+}
+
+.container img {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 55px;
+    margin: 20px;
+    text-align: center;
+}
+
+.date {
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+.container-card{
+    /* border: 1px solid violet; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    margin: 0px 50px 0px 50px;
+}
+
+
+.card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card h1 {
+    width: 70%;
+    font-weight: bold;
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-footer img {
+    height: 40px;
+}
+
+.container-footer p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.container-footer button {
+    width: 50%;
+    height: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #d0d0d0;
+    background-color: #d0d0d0;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    /* position: fixed; */
+}
+
+.add, .question {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 4%;
+    margin-right: 15px;
+    border: 1px solid #d0d0d0;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
 }
