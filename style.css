@@ -73,7 +73,9 @@
   gap: 24px;
 }
 
-
+img#logo {
+  object-fit: cover;
+}
 .left img {
   width: 30px;
 }
@@ -186,4 +188,41 @@
 }
 .contenedor-img:hover .icono-card {
   display: inline-block;
+}
+/*
+btn position fixed
+*/
+#btn-mas{
+  display: none;
+}
+#mas {
+  width: 20px;
+  height: 20px;}
+#inter{
+  width: 20px;
+  height: 20px;
+}
+.boton{
+position: fixed;
+bottom: 25px;
+right: 35px;
+}
+.botones a, icon-mas2{
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 1px 1px 6px rgba(153, 162, 170, 0.5);
+  transition: all 500ms ease;
+}
+.botones a:hover{
+  background: rgb(230, 227, 227);
+}
+
+.botones a{
+  margin-bottom:  15px;
 }
