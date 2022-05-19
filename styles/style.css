@@ -40,7 +40,7 @@
 
 .right img:hover {
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: #d0d0d0;
 }
 
@@ -52,7 +52,7 @@
 
 .right p:hover {
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: #d0d0d0;
 }
 
@@ -62,23 +62,33 @@
     border-radius: 30px;
 }
 
-.central {
+.central input {
+    position: relative;
+    width: 100%;
+    border: none;
+    background-color: #EFEFEF;
     border-radius: 50px;
-    align-items: center;
-    background-color: #EFEFEF;;
 }
 
-.central:hover{
+.central input:hover {
     cursor: pointer;
     background-color: #d0d0d0;
 }
 
-.central img {
-    width: 20px;
-}
+.input {
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+  }
 
-#search {
-    margin-left: 10px;
+.icon-search {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .left {
