@@ -40,6 +40,8 @@
 
 .right img:hover {
     cursor: pointer;
+    border-radius: 30px;
+    background-color: #d0d0d0;
 }
 
 .right p {
@@ -138,12 +140,11 @@
     margin: 0px 50px 0px 50px;
 }
 
-.card:hover img {
+.card:hover {
     top: 1%;
     cursor: pointer;
     display: inline-block;
 }
-
 
 .card {
     position: relative;
