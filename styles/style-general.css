@@ -9,12 +9,11 @@
 
 .display {
     display: grid;
-    grid-template-columns: 15% auto 15%;
+    grid-template-columns: 15% auto 14%;
     grid-template-rows: auto;
 }
 
 .header {
-    width: 100%;
     background-color: white;
     position: fixed;
     padding: 13px 0;
@@ -24,7 +23,6 @@
 
 .nav{
     display: flex;
-    padding: 5px;
 }
 
 .ends {
@@ -33,7 +31,7 @@
 }
 
 .right {
-    gap: 5px;
+    gap: 15px;
 }
 
 .right img {
@@ -105,8 +103,8 @@
 
 .left {
     align-items: center;
-    justify-content: baseline;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .left img {
