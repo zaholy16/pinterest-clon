@@ -513,6 +513,8 @@ li a{
 
 /* Fin btn position fixed */
 
+/* Inicio footer pagina-hoy.html */
+
 footer {
     width: 100%;
     height: 30vh;
@@ -582,6 +584,10 @@ footer {
   
 }
 
+/* Fin footer pagina-hoy.html */
+
+/* Inicio main pagina-perfil.html */
+
 .main {
     margin: 15px;
     grid-row: 80% auto;}  
@@ -624,17 +630,18 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+}
 
-    .contenedor{
-        display: flex;
-        justify-content: center;
-        align-self:flex-start;
-        align-items: center;
-        width: auto;
-        height: 55px;
-        
-    }
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-self:flex-start;
+    align-items: center;
+    width: auto;
+    height: 55px;
+}
+
 #share{
     margin: 10px;
     border-radius: 50px;
@@ -678,15 +685,18 @@ footer {
     height: 70px;
     
 }
+
 li{
     display: inline-block;
 }
+
 li a{
     font-weight: bold;
     text-decoration: none;
     color: black;
     padding: 0 18px;
 }
+
 .link::after{
     content: ' ';
     display: block;
@@ -695,6 +705,7 @@ li a{
     background: black;
     transition: width .3s;
 }
+
 .link:hover::after{
     width: 100%;
     transition: width .3s;
@@ -703,10 +714,13 @@ li a{
 .option{
     background-color: white;
     padding: 10px;
-    overflow: hidden;}
+    overflow: hidden;
+}
+
 #not1{
     float: left;
 }
+
 #not2{
     float: right;
 }
@@ -717,6 +731,7 @@ li a{
     columns: 5;
     column-gap: 40px;
 }
+
 .container-img .box{
     width: 100%;
     margin:10 10 10px;
@@ -724,20 +739,25 @@ li a{
     overflow: hidden;
     break-inside: avoid;
 }
+
 .container-img .box img{
     max-width: 100%;
 }
+
 .container-img .box h2{
     margin: 10px 0;
     padding: 0;
     font-size: 18px;
 }
+
 .container-img .box p{
     margin: 0;
     padding:0 0 10px;
     font-size: 14px;
 }
+
 #imgn{
     border-radius:5px 10px 15px 20px;
 }
 
+/* Fin main pagina-perfil.html */
