@@ -1,27 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .display {
-    margin: 12px;
     display: grid;
     grid-template-columns: 15% auto 15%;
     grid-template-rows: auto;
-    gap: 15px; 
 }
 
 .header {
-    width: 98%;
-    background-color: #d0d0d0;
-    position: fixed;
-    margin: 1px;
-} 
-
-.header {
+    width: 100%;
     background-color: white;
-}
+    position: fixed;
+    padding: 13px 0;
+    width: 100%;
+    z-index: 1;
+} 
 
 .nav{
     display: flex;
@@ -34,17 +31,27 @@
 }
 
 .right {
-    gap: 10px;
+    gap: 5px;
 }
 
 .right img {
-    width: 35px;
+    width: 45px;
+}
+
+.right img:hover {
+    cursor: pointer;
 }
 
 .right p {
     padding: 11px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.right p:hover {
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #d0d0d0;
 }
 
 #today {
@@ -56,7 +63,12 @@
 .central {
     border-radius: 50px;
     align-items: center;
-    background-color: #d0d0d0;;
+    background-color: #EFEFEF;;
+}
+
+.central:hover{
+    cursor: pointer;
+    background-color: #d0d0d0;
 }
 
 .central img {
@@ -70,20 +82,27 @@
 .left {
     align-items: center;
     justify-content: baseline;
-    gap: 24px;
+    gap: 15px;
 }
 
 .left img {
-    width: 30px;
+    width: 35px;
+    padding: 5px;
+}
+
+.left img:hover {
+    cursor: pointer;
+    background-color: #d0d0d0;
+    border-radius: 30px
 }
 
 #down {
-    height: 2vh;
-    width: 14px;
+    height: 3vh;
+    width: 20px;
 }
 
 .main {
-    position: static;
+    padding-top: 80px;
 }
 
 .container {
@@ -102,22 +121,32 @@
 }
 
 .date {
-    margin-bottom: 1vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
     text-align: center;
 }
 
+.date h2 {
+    margin-bottom: 0.6vw;
+    font-size: 1.2rem;
+}
+
 .container-card{
-    /* border: 1px solid violet; */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
     margin: 0px 50px 0px 50px;
 }
 
+.card:hover img {
+    top: 1%;
+    cursor: pointer;
+    display: inline-block;
+}
+
 
 .card {
     position: relative;
-    display: inline-block;
     text-align: center;
 }
 
@@ -142,9 +171,51 @@
     transform: translate(-50%, -50%);
 }
 
+#btn-mas{
+    display: none;
+}
+
+#add {
+    width: 20px;
+    height: 20px;
+}
+
+#question{
+    width: 20px;
+    height: 20px;
+}
+
+.button{
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+}
+
+.buttons a, icon-add2{
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px rgba(153, 162, 170, 0.5);
+    transition: all 500ms ease;
+}
+
+.buttons a:hover{
+    background: rgb(230, 227, 227);
+}
+
+.buttons a{
+    margin-bottom:  15px;
+}
+
 footer {
     width: 100%;
     height: 30vh;
+    margin-top: 50px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -154,16 +225,16 @@ footer {
 }
 
 .container-footer img {
-    height: 40px;
+    height: 30px;
 }
 
 .container-footer p {
     margin-top: 10px;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
 }
 
 .container-footer button {
-    width: 50%;
+    width: 60%;
     height: 50px;
     margin-top: 40px;
     font-weight: bold;
@@ -173,13 +244,17 @@ footer {
     background-color: #d0d0d0;
 }
 
+.container-footer button:hover {
+    background: rgb(230, 227, 227);
+
+}
+
 .options {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
     gap: 10px;
-    /* position: fixed; */
 }
 
 .add, .question {
