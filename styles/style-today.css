@@ -1,0 +1,145 @@
+/* Inicio main hoy */
+
+.main {
+    padding-top: 80px;
+}
+
+.container {
+    grid-column: 2 / 3;
+    width: auto;
+}
+
+.container img {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 55px;
+    margin: 20px;
+    text-align: center;
+}
+
+.date {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+.date h2 {
+    margin-bottom: 0.6vw;
+    font-size: 1.2rem;
+}
+
+.container-card{
+    width: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    margin: 0px 50px 0px 50px;
+}
+
+.card:hover {
+    top: 1%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card h1 {
+    width: 70%;
+    font-weight: bold;
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Fin main hoy */
+
+/* Inicio footer pagina hoy */
+
+footer {
+    width: 100%;
+    height: 30vh;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-footer img {
+    height: 30px;
+}
+
+.container-footer p {
+    margin-top: 10px;
+    font-size: 1.0rem;
+}
+
+.container-footer button {
+    width: 60%;
+    height: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #d0d0d0;
+    background-color: #d0d0d0;
+}
+
+.container-footer button:hover {
+    background: rgb(230, 227, 227);
+
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.add, .question {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 4%;
+    margin-right: 15px;
+    border: 1px solid #d0d0d0;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.button a:hover{
+  background: rgb(230, 227, 227);
+  border: 5px solid #fff;
+}
+
+.button a{
+  margin-bottom:  15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Fin footer pagina hoy */
