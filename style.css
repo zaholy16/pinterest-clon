@@ -40,11 +40,20 @@
 .right img {
   width: 35px;
 }
+.right img:hover {
+  cursor: pointer;
+}
 
 .right p {
   padding: 11px;
   font-size: 15px;
   font-weight: bold;
+}
+
+.right p:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #d0d0d0;
 }
 
 #today {
