@@ -58,6 +58,7 @@
     border-radius: 50%;
     background-color: #d0d0d0;
 }
+
 .urlToday,.urlHome{
   text-decoration: none;
   color: #000;
@@ -65,14 +66,13 @@
     font-size: 15px;
     font-weight: bold;
 }
+
 .urlToday:hover,.urlHome:hover {
   cursor: pointer;
   border-radius:30px;
   background-color: #000000;
   color: #fff;
 }
-
-
 
 .central input {
     position: relative;
@@ -127,7 +127,7 @@
 
 /* Fin Header */
 
-/* Inicio main PaginaHoy.html */
+/* Inicio main pagina-hoy.html */
 
 .main-today {
     padding-top: 80px;
@@ -197,9 +197,10 @@
     transform: translate(-50%, -50%);
 }
 
-/* Fin main PaginaHoy.html */
+/* Fin main pagina-hoy.html */
 
-/*main pagina inicio*/
+/* Inicio main pagina-inicio.html */
+
 .section-inicio-cards {
   padding: 90px 30px;
   width: 95vw;
@@ -214,9 +215,11 @@
   margin: 10px 0px;
   border-radius: 48px;
 }
+
 .contenedor-img {
   position: relative;
 }
+
 .contenedor-img button {
   width: 100px;
   height: 50px;
@@ -229,6 +232,7 @@
   position: absolute;
   display: none;
 }
+
 .contenedor-img a {
   font-weight: 700;
   position: absolute;
@@ -238,15 +242,18 @@
   font-weight: 700;
   text-decoration: none;
 }
+
 .contenedor-img:hover button {
   display: inline-block;
   top: 7%;
   right: 25px;
   cursor: pointer;
 }
+
 .contenedor-img span {
   cursor: pointer;
 }
+
 .span-pinterest {
   position: absolute;
   width: 90px;
@@ -263,20 +270,25 @@
   border-radius: 15px;
   display: none;
 }
+
 .contenedor-img:hover .span-pinterest {
   display: flex;
 }
+
 .span-pinterest:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
+
 .contenedor-img:hover a {
   display: inline-block;
   top: 8%;
   left: 25px;
 }
+
 .contenedor-img .btn-card:hover {
   background-color: #ad081b;
 }
+
 .contenedor-img .icono-card {
   width: 32px;
   position: absolute;
@@ -285,6 +297,7 @@
   background-color: #ececec;
   display: none;
 }
+
 .contenedor-img .icono-upload-card {
   width: 32px;
   position: absolute;
@@ -299,15 +312,17 @@
 .contenedor-img:hover .icono-upload-card {
   display: inline-block;
 }
+
 .icono-upload-card:hover,
 .icono-card:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
+
 .contenedor-img:hover .icono-card {
   display: inline-block;
 }
 
-/*fin main pagina incio*/
+/*Fin main pagina-incio.html*/
 
 /* Inicio main paginaPerfil.html */
 
@@ -355,15 +370,16 @@
     flex-direction: column;
     align-items: center;}
 
-    .contenedor{
-        display: flex;
-        justify-content: center;
-        align-self:flex-start;
-        align-items: center;
-        width: auto;
-        height: 55px;
-        
-    }
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-self:flex-start;
+    align-items: center;
+    width: auto;
+    height: 55px;
+
+}
+
 #share{
     margin: 10px;
     border-radius: 50px;
@@ -407,15 +423,18 @@
     height: 70px;
     
 }
+
 li{
     display: inline-block;
 }
+
 li a{
     font-weight: bold;
     text-decoration: none;
     color: black;
     padding: 0 18px;
 }
+
 .link::after{
     content: ' ';
     display: block;
@@ -424,6 +443,7 @@ li a{
     background: black;
     transition: width .3s;
 }
+
 .link:hover::after{
     width: 100%;
     transition: width .3s;
@@ -432,33 +452,40 @@ li a{
 .option{
     background-color: white;
     padding: 10px;
-    overflow: hidden;}
+    overflow: hidden;
+}
+
 #not1{
     float: left;
 }
+
 #not2{
     float: right;
 }
 
-/* Fin main paginaPerfil.html */
-/*
-btn position fixed
-*/
+/* Fin main pagina-perfil.html */
+
+/* btn position fixed */
 #btn-mas{
-  display: none;
+    display: none;
 }
+
 #mas {
-  width: 20px;
-  height: 20px;}
+    width: 20px;
+    height: 20px;
+}
+
 #inter{
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
+
 .boton{
-position: fixed;
-bottom: 25px;
-right: 35px;
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
 }
+
 .botones a, icon-mas2{
   display: block;
   text-decoration: none;
@@ -472,64 +499,19 @@ right: 35px;
  
 }
 .botones a:hover{
-  background: rgb(230, 227, 227);
-  border: 5px solid #fff;
+    background: rgb(230, 227, 227);
+    border: 5px solid #fff;
 }
 
 .botones a{
-  margin-bottom:  15px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-/*fin main pagina incio*/
-/*
-btn position fixed
-*/
-
-
-#btn-mas{
-    display: none;
-}
-
-#add {
-    width: 20px;
-    height: 20px;
-}
-
-#question{
-    width: 20px;
-    height: 20px;
-}
-
-.button{
-    position: fixed;
-    bottom: 25px;
-    right: 35px;
-}
-
-.buttons a, icon-add2{
-    display: block;
-    text-decoration: none;
-    background-color: white;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 1px 1px 6px rgba(153, 162, 170, 0.5);
-}
-
-.buttons a:hover{
-    background: rgb(230, 227, 227);
-}
-
-.buttons a{
     margin-bottom:  15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* Fin btn position fixed */
 
 footer {
     width: 100%;
