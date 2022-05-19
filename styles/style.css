@@ -1,4 +1,4 @@
-{
+/* * {
     margin: 0;
     padding: 0;
     font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
@@ -54,7 +54,7 @@
 #profile {
     align-items: center;} */ 
    
-.main {
+.mainPerfil {
     margin: 15px;
     grid-row: 80% auto;}  
 
@@ -183,7 +183,7 @@ li a{
     float: right;
 }
 
-#btn-mas{
+/* #btn-mas{
     display: none;
 }
 #mas {
@@ -216,7 +216,7 @@ right: 35px;
 
 .botones a{
     margin-bottom:  15px;
-}
+} */
 
 .container-img{
     width: 1200px;
