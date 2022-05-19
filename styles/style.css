@@ -199,6 +199,79 @@
 
 /* Fin main pagina-hoy.html */
 
+/* Inicio footer pagina-hoy.html */
+
+footer {
+    width: 100%;
+    height: 30vh;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-footer img {
+    height: 30px;
+}
+
+.container-footer p {
+    margin-top: 10px;
+    font-size: 1.0rem;
+}
+
+.container-footer button {
+    width: 60%;
+    height: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #d0d0d0;
+    background-color: #d0d0d0;
+}
+
+.container-footer button:hover {
+    background: rgb(230, 227, 227);
+
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.add, .question {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 4%;
+    margin-right: 15px;
+    border: 1px solid #d0d0d0;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.button a:hover{
+  background: rgb(230, 227, 227);
+  border: 5px solid #fff;
+}
+
+.button a{
+  margin-bottom:  15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Fin footer pagina-hoy.html */
+
 /* Inicio main pagina-inicio.html */
 
 .section-inicio-cards {
@@ -463,6 +536,42 @@ li a{
     float: right;
 }
 
+
+.container-img{
+    width: 1200px;
+    margin: 18px auto;
+    columns: 5;
+    column-gap: 40px;
+}
+
+.container-img .box{
+    width: 100%;
+    margin:10 10 10px;
+    padding: 15px;
+    overflow: hidden;
+    break-inside: avoid;
+}
+
+.container-img .box img{
+    max-width: 100%;
+}
+
+.container-img .box h2{
+    margin: 10px 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container-img .box p{
+    margin: 0;
+    padding:0 0 10px;
+    font-size: 14px;
+}
+
+#imgn{
+    border-radius:5px 10px 15px 20px;
+}
+
 /* Fin main pagina-perfil.html */
 
 /* btn position fixed */
@@ -513,251 +622,3 @@ li a{
 
 /* Fin btn position fixed */
 
-/* Inicio footer pagina-hoy.html */
-
-footer {
-    width: 100%;
-    height: 30vh;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.container-footer img {
-    height: 30px;
-}
-
-.container-footer p {
-    margin-top: 10px;
-    font-size: 1.0rem;
-}
-
-.container-footer button {
-    width: 60%;
-    height: 50px;
-    margin-top: 40px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 30px;
-    border: 1px solid #d0d0d0;
-    background-color: #d0d0d0;
-}
-
-.container-footer button:hover {
-    background: rgb(230, 227, 227);
-
-}
-
-.options {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
-.add, .question {
-    font-size: 2.5rem;
-    text-align: center;
-    width: 4%;
-    margin-right: 15px;
-    border: 1px solid #d0d0d0;
-    background-color: white;
-    border-radius: 50px;
-    padding: 5px;
-}
-.button a:hover{
-  background: rgb(230, 227, 227);
-  border: 5px solid #fff;
-}
-
-.button a{
-  margin-bottom:  15px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-/* Fin footer pagina-hoy.html */
-
-/* Inicio main pagina-perfil.html */
-
-.main {
-    margin: 15px;
-    grid-row: 80% auto;}  
-
-.caja_perfil{
-    display: flex;
-    justify-content: center;
-    align-self:flex-start;
-    align-items: center;
-    background-color:white;
-    width: auto;
-    height: 180px;}
-
-#profile2 {
-    width: 150px;
-    height: 150px;}
-
-.Nombre{
-    background-color: white;
-    width: auto;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;}
-
-.Usuario{
-    background-color: white;
-    width: auto;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;}
-
-.Seguidores{
-    background-color: white;
-    width: auto;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contenedor{
-    display: flex;
-    justify-content: center;
-    align-self:flex-start;
-    align-items: center;
-    width: auto;
-    height: 55px;
-}
-
-#share{
-    margin: 10px;
-    border-radius: 50px;
-    background-color:#e2e0e0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-    width: 100px;
-    height: 50px;
-}
-
-#edit{
-    border-radius: 50px;
-    background-color:#e2e0e0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-    width: 115px;
-    height: 50px;
-}
-
-.options:hover{
-    display: inline-block;
-    color: white;
-    cursor: pointer;
-
-}
-
-.contenedor2{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-self:flex-start;
-    align-items: center;
-    background-color:white;
-    width: auto;
-    height: 70px;
-    
-}
-
-li{
-    display: inline-block;
-}
-
-li a{
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    padding: 0 18px;
-}
-
-.link::after{
-    content: ' ';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: black;
-    transition: width .3s;
-}
-
-.link:hover::after{
-    width: 100%;
-    transition: width .3s;
-}
-
-.option{
-    background-color: white;
-    padding: 10px;
-    overflow: hidden;
-}
-
-#not1{
-    float: left;
-}
-
-#not2{
-    float: right;
-}
-
-.container-img{
-    width: 1200px;
-    margin: 18px auto;
-    columns: 5;
-    column-gap: 40px;
-}
-
-.container-img .box{
-    width: 100%;
-    margin:10 10 10px;
-    padding: 15px;
-    overflow: hidden;
-    break-inside: avoid;
-}
-
-.container-img .box img{
-    max-width: 100%;
-}
-
-.container-img .box h2{
-    margin: 10px 0;
-    padding: 0;
-    font-size: 18px;
-}
-
-.container-img .box p{
-    margin: 0;
-    padding:0 0 10px;
-    font-size: 14px;
-}
-
-#imgn{
-    border-radius:5px 10px 15px 20px;
-}
-
-/* Fin main pagina-perfil.html */
