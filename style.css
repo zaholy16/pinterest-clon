@@ -140,7 +140,7 @@ img#logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 7%;
+  bottom: 10%;
   left: 25px;
   color: #000;
   font-size: 15px;
@@ -166,7 +166,7 @@ img#logo {
 .contenedor-img .icono-card {
   width: 32px;
   position: absolute;
-  bottom: 5%;
+  bottom: 8%;
   right: 25px;
   background-color: #e0e0e0b0;
   display: none;
@@ -174,7 +174,7 @@ img#logo {
 .contenedor-img .icono-upload-card {
   width: 32px;
   position: absolute;
-  bottom: 5%;
+  bottom: 8%;
   right:70px;
   background-color: #e0e0e0b0;
   display: none;
