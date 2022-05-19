@@ -438,12 +438,12 @@ footer {
     border-radius: 50px;
     padding: 5px;
 }
-.botones a:hover{
+.button a:hover{
   background: rgb(230, 227, 227);
   border: 5px solid #fff;
 }
 
-.botones a{
+.button a{
   margin-bottom:  15px;
   border-radius: 50%;
   display: flex;
