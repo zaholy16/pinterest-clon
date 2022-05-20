@@ -3,16 +3,16 @@
 .section-inicio-cards {
     padding: 90px 30px;
     width: 95vw;
-    columns: 6 320px;
-    column-gap: 20px;
+    columns: 6 236px;
+    column-gap: 15px;
     margin: 0 auto;
   }
   
   .card-image img {
     width: 100%;
     object-fit: cover;
-    margin: 10px 0px;
-    border-radius: 48px;
+    margin: 5px 0px;
+    border-radius: 15px;
   }
   
   .card-image {

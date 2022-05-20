@@ -68,6 +68,88 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*media uno*/
+@media (max-width: 1280px) {
+    .main {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container {
+        columns: 2 620px;
+        margin: 0 auto;
+        width: 95vw;
+    }
+    
+    .container img {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 55px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .date h2 {
+        margin-bottom: 0.6vw;
+        font-size: 1.2rem;
+    }
+    
+    .container-card{
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        margin: 0px 50px 0px 50px;
+    }
+    
+    .card:hover {
+        top: 1%;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    .card {
+        position: relative;
+        text-align: center;
+    }
+    
+    .card h3 {
+        font-size: 1.1rem;
+        color: white;
+        font-weight: 400;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .card h1 {
+        width: 70%;
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    }
+/*fin media tablet*/
+
+/*media dos*/
+@media (max-width: 768px){
+    .container img {
+        position: relative;
+        width: 170px;
+        height: 170px;
+        border-radius: 55px;
+        margin: 20px;
+        text-align: center;
+    }
+}
 
 /* Fin main hoy */
 
