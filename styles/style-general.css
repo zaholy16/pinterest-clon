@@ -179,7 +179,7 @@
         grid-template-rows: auto;
     }
     
-    .header {
+    #navbar-pinterest {
         background-color: white;
         position: fixed;
         padding: 13px 0;
@@ -245,7 +245,8 @@
         background-color: #EFEFEF;
         border-radius: 50px;
     }
-    
+}
+
 /*media dos*/
 @media (max-width: 768px){
     .central{
@@ -264,8 +265,4 @@
         grid-template-columns:30% 50% 20%;
         grid-template-rows: auto;
     }
-}
-
-
-
 }
