@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./styles/style-general.css">
+    <link rel="stylesheet" href="./styles/style-today.css">
     <title>Pinterest</title>
 </head>
 <body>
-    <header class="display header">
+    <nav class="display header">
         <div class="nav ends right">
             <div class="nav right">
-                <img id="logo" src="./img/logo.png" alt="Logo">    
-                <p>Home</p>
-                <p id="today">Today</p>
+                <a href="home.html"><img id="logo" src="./img/logo.png" alt="Logo"> </a>  
+                <a href="home.html" class="urlHome">Inicio</a>
+                <a href="today.html" class="urlToday">Hoy</a>
             </div>
         </div>
         <div class="nav central">
@@ -24,16 +26,16 @@
             <div class="nav left">
                 <img id="notification" src="./img/alarm.png" alt="Notifications">
                 <img id="message" src="./img/message.png" alt="Messages">
-                <img id="profile" src="./img/profile.png" alt="Profile">
+                <a href="profile.html" class="urlPerfil"><img id="profile" src="./img/profile.png" alt="Profile"></a>
                 <img id="down" src="./img/down.png" alt="Arrowe-down">
             </div>
         </div>
-    </header>
+    </nav>
 
     <main class="display main">
         <div class="container">
             <div class="date">
-                <h2>18 de mayo de 2022</h2>
+                <h2>19 de mayo de 2022</h2>
                 <h1>Sigue inspirándote</h1>
             </div>
 
@@ -60,7 +62,7 @@
 
         <div class="container">
             <div class="date">
-                <h1>17 de mayo de 2022</h1>
+                <h1>18 de mayo de 2022</h1>
             </div>
 
             <div class="container-card">
@@ -84,14 +86,14 @@
             </div>
         </div>
 
-        <div class="button">
+        <div class="boton">
             <input type="checkbox" id="btn-mas">
-            <div class="buttons">
-                <a href="#" ><img id="add" src="./img/mas2.png"> </a>
-                <a href="#"><img id="question" src="./img/interrogacion.png"> </a>
+            <div class="botones">
+                <a href="#" ><img id="mas" src="./img/mas2.png"> </a>
+                <a href="#"><img id="inter" src="./img/interrogacion.png"> </a>
             </div>
-            <div class=btn-add>
-                <label for="btn-mas" class="icon-add2"></label>
+            <div class=btn-mas>
+                <label for="btn-mas" class="icon-mas2"></label>
             </div>
         </div>
 
