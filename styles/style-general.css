@@ -1,28 +1,9 @@
-/* BreakPoints 
-    576px 
-    768px
-    992px
-    1200px
-    1400px 
-*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
-/* @media screen and (min-width: 1px) and (max-width: 576px){
-    body {
-        background-color: #fff000;
-    }
-
-    h1.title {
-        font-size: 3em;
-        color: #333;
-    }
-} */
 
 /* Header */
 
@@ -32,7 +13,7 @@
     grid-template-rows: auto;
 }
 
-.header {
+#navbar-pinterest {
     background-color: white;
     position: fixed;
     padding: 13px 0;
@@ -101,7 +82,7 @@
     background-color: #d0d0d0;
 }
 
-.input {
+.finder {
     color: #191919;
     padding: 15px 15px 15px 38px;
     width: 100%;
